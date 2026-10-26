@@ -7,21 +7,8 @@
     />
     <div class="col-span-3">
       <p>
-        Hi I'm <b>Emma</b>
-        <span
-          class="ms-1 inline-flex items-center rounded-full bg-surface0 px-2 py-1 text-xs font-medium"
-          >she/her</span
-        >
-        and I'm
-        <AgeCounter
-          :birthTimestamp="1225961400000"
-          :width="107"
-          :height="18"
-          fontSize="16"
-          textColor="#9399b2"
-        />
-        years old. Welcome to my little corner on the internet. I make, bake and
-        break software
+        Hi I'm <b>Tak</b> and welcome to my little corner on the internet. I
+        make, bake and break software
         <span class="text-overlay0">(and sometimes hardware)</span> for the most
         random projects.
       </p>
@@ -49,9 +36,9 @@
           class="fill-inherit"
         />
       </svg>
-      hello@prpl.wtf
+      tak@094929.xyz
     </Infobox>
-    <NuxtLink to="https://github.com/prplwtf" target="_blank">
+    <NuxtLink to="https://github.com/takthegod" target="_blank">
       <Infobox
         class="col-span-3 flex flex-row items-center transition-colors duration-300 ease-in-out hover:bg-mantle"
       >
@@ -77,33 +64,13 @@
         github
       </Infobox>
     </NuxtLink>
-    <NuxtLink to="https://en.pronouns.page/@prplwtf" target="_blank">
-      <Infobox
-        class="col-span-3 flex flex-row items-center transition-colors duration-300 ease-in-out hover:bg-mantle"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 650 650"
-          width="20"
-          height="20"
-          class="me-1 fill-text"
-        >
-          <path
-            d="M396.52 174.35c1.35-2.4.21-4.35-2.54-4.35l-48.2.03c-2.75 0-6.15 1.94-7.54 4.31l-118.1 199.77c-16.48 27.15-39.48 33.15-61.58 30.47-37.94-4.6-58.34-32.45-58.34-69.54 0-37.25 30.31-67.56 67.56-67.56h75c2.75 0 6.12-1.95 7.48-4.34l27.03-47.2c1.37-2.39.23-4.34-2.52-4.34h-107c-68.06 0-123.44 55.37-123.44 123.44 0 32.89 12.85 68.36 36.22 91.54 23.03 22.84 53.8 31.21 86.64 31.89 18.54.21 69.46-.21 93.33-42.68 26.73-47.57 136-241.44 136-241.44zM571.94 244.44c-23.03-22.84-53.8-31.21-86.64-31.89-18.54-.21-69.46.21-93.33 42.68-26.72 47.55-136 241.42-136 241.42-1.35 2.4-.21 4.35 2.54 4.35l48.2-.03c2.75 0 6.15-1.94 7.54-4.31l118.1-199.77c16.48-27.15 39.48-33.15 61.58-30.47 37.94 4.6 58.34 32.45 58.34 69.54 0 37.25-30.31 67.56-67.56 67.56h-75c-2.75 0-6.12 1.95-7.48 4.34l-27.03 47.2c-1.37 2.39-.23 4.34 2.52 4.34h107c68.06 0 123.44-55.37 123.44-123.44 0-32.87-12.85-68.34-36.22-91.52z"
-            class="fill-inherit"
-          />
-        </svg>
-        pronouns.page
-      </Infobox>
-    </NuxtLink>
   </div>
 </template>
 
 <script>
 import Infobox from "~/components/Infobox.vue";
-import AgeCounter from "~/components/AgeCounter.vue";
 
 export default {
-  components: { Infobox, AgeCounter },
+  components: { Infobox },
 };
 </script>

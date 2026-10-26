@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: ["@nuxt/image", "@nuxtjs/plausible"],
+  plausible: {
+    apiHost: "https://plausible.094929.xyz",
+    domain: "094929.xyz",
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

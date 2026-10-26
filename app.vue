@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Emma's homepage</Title>
+    <Title>Tak's homepage</Title>
   </Head>
   <NuxtLayout>
     <Backdrop />
@@ -35,14 +35,8 @@
             <NuxtLink to="/" class="ms-2">
               <AnimatedLink text="home" />
             </NuxtLink>
-            <NuxtLink to="/friends" class="ms-2">
-              <AnimatedLink text="friends" />
-            </NuxtLink>
-            <NuxtLink to="/projects" class="ms-2">
-              <AnimatedLink text="projects" />
-            </NuxtLink>
-            <NuxtLink to="/keys" class="ms-2">
-              <AnimatedLink text="keys" />
+            <NuxtLink to="/094929" class="ms-2">
+              <AnimatedLink text="094929" />
             </NuxtLink>
           </span>
         </div>
